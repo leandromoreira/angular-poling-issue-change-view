@@ -1,0 +1,93 @@
+{
+  "data": [
+    {"name": "tvg", "audioCodec": "AAC", "videoCodec": "h264",
+      "bitrates": [
+        {"bitrate": "240", "streaming": false, "source": "1", "mediaSequence": 45091},
+        {"bitrate": "480", "streaming": true, "source": "0", "mediaSequence": 230},
+        {"bitrate": "1280", "streaming": true, "source": "0", "mediaSequence": 230},
+        {"bitrate": "3680", "streaming": true, "source": "0", "mediaSequence": 230}
+      ]
+    },
+    {"name": "gnews", "audioCodec": "AAC", "videoCodec": "h264",
+      "bitrates": [
+        {"bitrate": "240", "streaming": true, "source": "1", "mediaSequence": 9},
+        {"bitrate": "360", "streaming": true, "source": "1", "mediaSequence": 9},
+        {"bitrate": "480", "streaming": true, "source": "1", "mediaSequence": 9},
+        {"bitrate": "720", "streaming": true, "source": "1", "mediaSequence": 9},
+        {"bitrate": "1280", "streaming": true, "source": "1", "mediaSequence": 9},
+        {"bitrate": "3680", "streaming": true, "source": "1", "mediaSequence": 9}
+      ]
+    },
+    {"name": "pfc1", "audioCodec": "AAC", "videoCodec": "h264",
+      "bitrates": [
+        {"bitrate": "360", "streaming": true, "source": "0", "mediaSequence": 4590},
+        {"bitrate": "500", "streaming": true, "source": "0", "mediaSequence": 4591},
+        {"bitrate": "720", "streaming": true, "source": "0", "mediaSequence": 4590}
+      ]
+    },
+    {"name": "pfc2", "audioCodec": "AAC", "videoCodec": "h264",
+      "bitrates": [
+        {"bitrate": "360", "streaming": true, "source": "0", "mediaSequence": 4590},
+        {"bitrate": "500", "streaming": true, "source": "0", "mediaSequence": 4591},
+        {"bitrate": "720", "streaming": true, "source": "0", "mediaSequence": 4590}
+      ]
+    },
+    {"name": "pfc3", "audioCodec": "AAC", "videoCodec": "h264",
+      "bitrates": [
+        {"bitrate": "360", "streaming": true, "source": "0", "mediaSequence": 4590},
+        {"bitrate": "500", "streaming": true, "source": "0", "mediaSequence": 4591},
+        {"bitrate": "720", "streaming": true, "source": "0", "mediaSequence": 4590}
+      ]
+    },
+    {"name": "pfc4", "audioCodec": "AAC", "videoCodec": "h264",
+      "bitrates": [
+        {"bitrate": "360", "streaming": true, "source": "0", "mediaSequence": 4590},
+        {"bitrate": "500", "streaming": true, "source": "0", "mediaSequence": 4591},
+        {"bitrate": "720", "streaming": false, "source": "0", "mediaSequence": 4590}
+      ]
+    },
+    {"name": "pfc5", "audioCodec": "AAC", "videoCodec": "h264",
+      "bitrates": [
+        {"bitrate": "360", "streaming": true, "source": "0", "mediaSequence": 4590},
+        {"bitrate": "500", "streaming": true, "source": "0", "mediaSequence": 4591},
+        {"bitrate": "720", "streaming": true, "source": "0", "mediaSequence": 4590}
+      ]
+    },
+    {"name": "pfc6", "audioCodec": "AAC", "videoCodec": "h264",
+      "bitrates": [
+        {"bitrate": "360", "streaming": true, "source": "0", "mediaSequence": 4590},
+        {"bitrate": "500", "streaming": true, "source": "0", "mediaSequence": 4591},
+        {"bitrate": "720", "streaming": true, "source": "0", "mediaSequence": 4590}
+      ]
+    },
+    {"name": "pfc7", "audioCodec": "AAC", "videoCodec": "h264",
+      "bitrates": [
+        {"bitrate": "360", "streaming": true, "source": "0", "mediaSequence": 4590},
+        {"bitrate": "500", "streaming": true, "source": "0", "mediaSequence": 4591},
+        {"bitrate": "720", "streaming": true, "source": "0", "mediaSequence": 4590}
+      ]
+    },
+    {"name": "ge", "audioCodec": "AAC", "videoCodec": "h264",
+      "bitrates": [
+        {"bitrate": "240", "streaming": true, "source": "0", "mediaSequence": 4590},
+        {"bitrate": "360", "streaming": true, "source": "0", "mediaSequence": 4591},
+        {"bitrate": "720", "streaming": true, "source": "0", "mediaSequence": 4590},
+        {"bitrate": "1280", "streaming": true, "source": "0", "mediaSequence": 4590},
+        {"bitrate": "3600", "streaming": false, "source": "0", "mediaSequence": 4590}
+      ]
+    },
+    {"name": "pfc8", "audioCodec": "AAC", "videoCodec": "h264",
+      "bitrates": [
+        {"bitrate": "360", "streaming": true, "source": "0", "mediaSequence": 4590},
+        {"bitrate": "500", "streaming": true, "source": "0", "mediaSequence": 4591},
+        {"bitrate": "720", "streaming": true, "source": "0", "mediaSequence": 4590}
+      ]
+    },
+    {"name": "pfc9", "audioCodec": "AAC", "videoCodec": "h264",
+      "bitrates": [
+        {"bitrate": "360", "streaming": true, "source": "0", "mediaSequence": 4590},
+        {"bitrate": "500", "streaming": true, "source": "0", "mediaSequence": 4591},
+        {"bitrate": "720", "streaming": true, "source": "0", "mediaSequence": 4590}
+      ]
+  }]
+}

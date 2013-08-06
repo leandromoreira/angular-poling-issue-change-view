@@ -1,0 +1,30 @@
+<input type="text" placeholder="Type to filter live videos" ng-model="search.name">
+<p>
+ Legend: <span class="radius success label">Online</span> <span class="radius alert label">Offline</span>
+</p>
+
+<ul class="large-block-grid-4">
+  <li class="live-video-item" ng-repeat="targetBitrate in targetBitrates.list | filter:search">
+    <div class="row">
+      <h3 class="live-video-title columns">{{ targetBitrate.name | uppercase  }} ({{ targetBitrate.videoCodec | uppercase }}, {{ targetBitrate.audioCodec | uppercase }})</h3>
+    </div>
+    <div class="row">
+      <div class="small-4 columns live-video-field">
+        <span class="live-video-subtitle">Bitrate(priority)</span>
+      </div>
+      <div class="small-5 columns live-video-field">
+        <span class="live-video-subtitle">Media sequence</span>
+      </div>
+    </div>
+    <div class="row" ng-repeat="bitrateInfo in targetBitrate.bitrates">
+      <div class="small-4 columns live-video-field">
+        <span class="radius label large-12" ng-class="{alert: bitrateInfo.streaming==false, success: bitrateInfo.streaming==true}">
+          {{ bitrateInfo.bitrate }}({{bitrateInfo.source}})
+        </span>
+      </div>
+      <div class="small-5 columns live-video-field">
+        <span>{{ bitrateInfo.mediaSequence }}</span>
+      </div>
+    </div>
+  </li>
+</ul>
